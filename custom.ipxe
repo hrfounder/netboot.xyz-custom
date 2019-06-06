@@ -25,7 +25,7 @@ boot || goto custom_exit
 
 :option_two
 kernel https://download.wira.hr/memdisk raw iso
-initrd https://download.wira.hr/linux/slitaz/live.iso
+initrd https://download.wira.hr/linux/puppy/live.iso
 boot || goto custom_exit
 
 :option_three
